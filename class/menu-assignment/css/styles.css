@@ -1,1 +1,53 @@
 /* font-family: "Raleway", sans-serif; */
+body{
+    font-family: 'Raleway', sans-serif;
+    width: 60%;
+    margin: 30px auto;
+}
+
+.logo {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+.topper{
+    color: grey;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.topper h2{
+    border-top: 2px dotted grey;
+    border-bottom: 2px dotted grey;
+    width 400px;
+
+}
+.event{
+    text-transform: none;
+}
+
+h3{
+    color:#8a1627;
+    border-bottom: 2px dotted grey;
+    width 50px;
+}
+
+.special {
+    background-color: lightgrey
+    padding: 6px
+    border:2px dotted grey
+}
+
+
+.footer img{
+    float: right;
+
+}
+.footer p{
+    color: grey;
+}
+
+.price{
+    font-style: italic;
+}
