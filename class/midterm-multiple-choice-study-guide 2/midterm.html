@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Midterm multiple choice studyguide</title>
+        <link rel="pre class="midnight-bg gray"connect" href="https://fonts.googleapis.com">
+        <link rel="pre class="midnight-bg gray"connect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="midterm.css">
+    </head>
+    <body>
+        <div id="intro">
+            <h1>Midterm study guide: multiple choice and short answer</h1>
+            <p>This portion of the midterm will be closed book, note and internet. Below are the topics to study up on before you take the test:</p>
+        </div>
+
+        <!-- HTML SECTION -->
+        <div id="html">
+            <h3>HTML</h3>
+            <div class="question-wrapper">
+                <p class="question">What is the difference between your &lt;head&gt; and &lt;body&gt; tags?</p>
+                <p> Body tag shows what is visible on the page, and the head stores meta data, links, and the title tag.
+                </p>
+            </div>
+            <div class="question-wrapper">
+                <p class="question">What are the main tags that go in the &lt;head&gt;?</p>
+                <ul>
+                    <li> meta</li>
+                    <li> title</li>
+                    <li> link</li>
+                </ul>
+            </div>
+            <div class="question-wrapper">
+                <p class="question">What is the &lt;meta&gt; viewport tag for? Why is it important?</p>
+                <p>
+                    Making the website responsive.
+                </p>
+            </div>
+            <div class="question-wrapper">
+                <p class="question">How do you link a CSS file in your HTML?</p>
+                <p>
+                    &lt; < link rel="stylesheet" href="[style].css" type="text/css" >&gt;
+                </p>
+            </div>
+            <div class="question-wrapper">
+                <p class="question">What are the main tags that go in the &lt;body&gt;?</p>
+                <ul>
+                    <li>heading h1-h6</li>
+                    <li> p tags</li>
+                    <li> div tags </li>
+                    <li> ul/ol </li>
+                    <li> li </li>
+                    <li> image </li>
+                </ul>
+            </div>
+            <div class="question-wrapper">
+                <p class="question">How do you add an image to your HTML?</p>
+                <p>
+                    &lt;  < img src="whatever.jpg" alt="example" > &gt;
+                </p>
+            </div>
+            <div class="question-wrapper">
+                <p class="question">What are the three different &lt;a&gt; types in HTML?</p>
+                <ul>
+                    <li>internal link to another page in same site</li>
+                    <li> external link to another website </li>
+                    <li> anchor link to a specific place # </li>
+                </ul>
+            </div>
+            <div class="question-wrapper">
+                <p class="question">What property is used on the &lt;a&gt; tag to open a link in a new tab? Write out a link to Google using the property to open in a new tab.</p>
+                <p>This is a link to <a href="#">Google</a>. Here is how it looks typed out: &lt; < a href="google.com" target="_blank" > &gt;
+                </p>
+
+            </div>
+            <div class="question-wrapper">
+                <p class="question">What are &lt;div&gt; and &lt;span&gt; tags? How are they used?</p>
+                <p>
+                div tags are used as containers and span tags target specific things like words in a paragraph (in line elements)
+                </p>
+            </div>
+        </div>
+        <!-- CSS SECTION -->
+        <div id="css">
+            <h3>CSS</h3>
+            <div class="question-wrapper">
+                <p class="question">What are the types of CSS implementations?</p>
+                <ul>
+                    <li>external (linking a seperate css file)</li>
+                    <li> internal (in the head)<li>
+                    <li> in line (within the element tag)</li>
+                </ul>
+            </div>
+            <div class="question-wrapper">
+                <p class="question">What are the three major types of CSS selectors?</p>
+                <ul>
+                    <li>class</li>
+                    <li>id</li>
+                    <li>element/tag</li>
+                </ul>
+                <img src="refrences/css-selectors.jpg" alt = "css selector types">
+            </div>
+            <div class="question-wrapper">
+                <p class="question">What is the box model?</p>
+                <p>
+                    element's padding, border and margin affects the width.
+
+                </p>
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vikingcodeschool.com%2Fhtml5-and-css3%2Fthe-css-box-model&psig=AOvVaw3NCZ3htwnO9WcK2NJe2jDk&ust=1635256187609000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjut5Pa5fMCFQAAAAAdAAAAABAD" alt= box model>
+            </div>
+            <div class="question-wrapper">
+                <p class="question">What are some of the most-used CSS properties?</p>
+                <ul>
+                    <li>color</li>
+                    <li>background-color</li>
+                    <li>border</li>
+                    <li>width</li>
+                    <li>height</li>
+                    <li>font-size</li>
+                    <li>font-style</li>
+                    <li>display</li>
+                </ul>
+            </div>
+            <div class="question-wrapper">
+                <p class="question">How do you add a border to an image? What about margins?</p>
+                <pre class="midnight-bg gray">
+                img {
+                property: value;
+                }
+                </pre class="midnight-bg gray">
+            </div>
+            <div class="question-wrapper">
+                <p class="question">What are the three ways you can format padding (and margin) values when defining different sides of an element?</p>
+                <pre class="midnight-bg gray">
+                img {
+                padding: value; //
+                padding: value value; //
+                padding: value value value value; //
+                }
+                </pre class="midnight-bg gray">
+            </div>
+            <div class="question-wrapper">
+                <p class="question">What does `margin: 0 auto;` mean with reference to the question above?</p>
+                <p>
+                    Used to center content on a page.
+                </p>
+            </div>
+            <div class="question-wrapper">
+                <p class="question">What is a hexadecimal code? How is it used?</p>
+                <p>
+                    used for colors #000000
+                </p>
+            </div>
+            <div class="question-wrapper">
+                <p class="question">What is a media query? Why is it used? Write a media query that changes the background color of your html page on small screen sizes.</p>
+                <p>
+                    makes page responsive, changes the style of a page element.
+                </p>
+                <pre class="midnight-bg gray">
+                @media screen and (max-width:500px){
+                    body{
+                        background-color: green;
+                    }
+                }
+                </pre class="midnight-bg gray">
+            </div>
+            <div class="question-wrapper">
+                <p class="question">What is flexbox? Why is it used?</p>
+                <p>
+                    Flexbox is a set of CSS properties and values that are used to move elements on the page within a container. Useful for layout of a page.
+                </p>
+            </div>
+        </div>
+        <!-- DESIGN SECTION -->
+        <div id="design">
+            <h3>Design</h3>
+            <div class="question-wrapper">
+                <p class="question">What are the four major design principles in C.R.A.P.? What do each of them entail?</p>
+                <ul>
+                    <li>C: Contrast</li>
+                    <li>R: Repetition</li>
+                    <li>A: Alignment</li>
+                    <li>P: Proximity</li>
+                </ul>
+            </div>
+        </div>
+        <!-- FOLDER STRUCTURE/URL SECTION -->
+        <div id="structure">
+            <h3>Folder structuring and URLs</h3>
+            <div class="question-wrapper">
+                <p class="question">How do you link to the assets in the file structure below?</p>
+                <img src="folder-structure.png" alt="folder structure example" />
+                <img src="example-structure/img/cat.jpg" alt="cat">
+                <a href="example-structure/case-study.html">
+            </div>
+            <div class="question-wrapper">
+                <p class="question">How would you create a URL to the css selector image in the references folder if the base url was github.com?</p>
+                <p>
+                    github.com/refrences/css-selectors.jpg
+                </p>
+                <img src="refrences/development-workflow.jpg" alt="development">
+            </div>
+        </div>
+        <!-- CLEAN UP SECTION -->
+        <div id="cleanup">
+            <h3>Formatting and validating</h3>
+            <div class="question-wrapper">
+                <p class="question">What is the value of formatting your code?</p>
+                <p>
+                    readability
+                </p>
+            </div>
+            <div class="question-wrapper">
+                <p class="question">Why is it especially important to have clean, readable CSS code?</p>
+                <p>
+                    Styles written at the top can be overwritten by adding new stuff at bottem.
+                </p>
+            </div>
+            <div class="question-wrapper">
+                <p class="question">What is a validator? Why do you use it?</p>
+                <p>
+                    It checks your code and makes sure there are no issues.
+                </p>
+            </div>
+        </div>
+        <div id="footer">
+            &copy;Brittany Renee Mayes, 2021
+        </div>
+    </body>
+</html>
